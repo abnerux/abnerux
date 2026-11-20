@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-label="Ilustração do painel do Attas">
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a3049"/><stop offset="1" stop-color="#121624"/></linearGradient>
+    <radialGradient id="g1" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#6c5bd4" stop-opacity=".9"/><stop offset="1" stop-color="#6c5bd4" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#2f6fd6" stop-opacity=".8"/><stop offset="1" stop-color="#2f6fd6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g3" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#d0753f" stop-opacity=".6"/><stop offset="1" stop-color="#d0753f" stop-opacity="0"/></radialGradient>
+    <linearGradient id="vidro" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".17"/><stop offset="1" stop-color="#fff" stop-opacity=".06"/></linearGradient>
+    <linearGradient id="borda" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".5"/><stop offset=".6" stop-color="#fff" stop-opacity=".08"/><stop offset="1" stop-color="#fff" stop-opacity=".2"/></linearGradient>
+    <linearGradient id="capa" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff8fb1"/><stop offset="1" stop-color="#8f78ff"/></linearGradient>
+    <linearGradient id="laranja" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffbf73"/><stop offset="1" stop-color="#ff8a2a"/></linearGradient>
+    <linearGradient id="azul" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9ccaff"/><stop offset="1" stop-color="#4f8dff"/></linearGradient>
+    <linearGradient id="amarelo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffeb94"/><stop offset="1" stop-color="#ffc93a"/></linearGradient>
+    <linearGradient id="lilas" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e0d7ff"/><stop offset="1" stop-color="#a690ff"/></linearGradient>
+    <filter id="f" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="50"/></filter>
+    <clipPath id="c"><rect width="1200" height="660" rx="26"/></clipPath>
+    <style>
+      .t { font-family: 'Segoe UI', 'SF Pro Text', Helvetica, Arial, sans-serif; fill: #f6f8fd; }
+      .s { fill: #aab0c8; }
+      .eq { animation: eq 1s ease-in-out infinite; transform-box: fill-box; transform-origin: bottom; }
+      .eq2 { animation-delay: .2s; } .eq3 { animation-delay: .4s; }
+      @keyframes eq { 50% { transform: scaleY(.35); } }
+      .digita { animation: pisca 1.2s ease-in-out infinite; }
+      @keyframes pisca { 50% { opacity: .25; } }
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="660" fill="url(#fundo)"/>
+    <g filter="url(#f)"><circle cx="1000" cy="40" r="260" fill="url(#g1)"/><circle cx="80" cy="640" r="260" fill="url(#g2)"/><circle cx="1180" cy="660" r="200" fill="url(#g3)"/></g>
+
+    <!-- menu lateral -->
+    <rect x="20" y="20" width="210" height="620" rx="24" fill="url(#vidro)" stroke="url(#borda)"/>
+    <circle cx="56" cy="60" r="16" fill="#e9ebf5"/><ellipse cx="56" cy="60" rx="25" ry="7" fill="none" stroke="#fff" stroke-width="2" transform="rotate(-18 56 60)"/>
+    <text class="t" x="92" y="67" font-size="21" font-weight="700">Attas</text>
+    <rect x="34" y="104" width="182" height="36" rx="12" fill="#fff" fill-opacity=".2" stroke="#fff" stroke-opacity=".3"/>
+    <rect x="34" y="113" width="3" height="18" rx="2" fill="#b8a6ff"/>
+    <text class="t" x="52" y="128" font-size="14" font-weight="600">Início</text>
+    <text class="t s" x="52" y="170" font-size="14">Conversa</text>
+    <text class="t s" x="52" y="208" font-size="14">Finanças</text>
+    <text class="t s" x="52" y="246" font-size="14">Registros</text>
+    <text class="t s" x="52" y="284" font-size="14">Conexões</text>
+    <text class="t s" x="52" y="322" font-size="14">Ajustes</text>
+
+    <!-- topo -->
+    <text class="t" x="256" y="62" font-size="28" font-weight="700">Início</text>
+    <text class="t s" x="256" y="86" font-size="13">seu hub pessoal · Telegram + IA local + Claude</text>
+    <rect x="770" y="36" width="250" height="40" rx="20" fill="url(#vidro)" stroke="url(#borda)"/>
+    <rect x="776" y="42" width="28" height="28" rx="14" fill="url(#capa)"/>
+    <text class="t" x="814" y="56" font-size="12" font-weight="600">Tocando agora</text>
+    <text class="t s" x="814" y="70" font-size="10">Spotify</text>
+    <rect class="eq" x="990" y="48" width="4" height="16" rx="2" fill="#b8a6ff"/><rect class="eq eq2" x="997" y="48" width="4" height="16" rx="2" fill="#b8a6ff"/><rect class="eq eq3" x="1004" y="48" width="4" height="16" rx="2" fill="#b8a6ff"/>
+    <rect x="1032" y="36" width="148" height="40" rx="20" fill="url(#vidro)" stroke="url(#borda)"/>
+    <circle cx="1052" cy="56" r="5" fill="#5ee39a"/><circle cx="1066" cy="56" r="5" fill="#5ee39a"/><circle cx="1080" cy="56" r="5" fill="#5ee39a"/>
+    <text class="t" x="1094" y="61" font-size="13" font-weight="600">Tudo no ar</text>
+
+    <!-- relógio -->
+    <rect x="250" y="104" width="300" height="190" rx="24" fill="url(#vidro)" stroke="url(#borda)"/>
+    <text class="t" x="274" y="182" font-size="62" font-weight="600" letter-spacing="-3">09:41</text>
+    <text class="t s" x="276" y="214" font-size="14">sexta-feira, 20 de novembro</text>
+    <text class="t" x="276" y="254" font-size="16" font-weight="600">Bom dia! O que vamos fazer?</text>
+
+    <!-- música -->
+    <rect x="566" y="104" width="300" height="190" rx="24" fill="url(#vidro)" stroke="url(#borda)"/>
+    <rect x="590" y="130" width="70" height="70" rx="14" fill="url(#capa)"/>
+    <text class="t" x="676" y="158" font-size="16" font-weight="700">Noite de foco</text>
+    <text class="t s" x="676" y="180" font-size="13">Lo-fi · Spotify</text>
+    <rect x="590" y="222" width="252" height="5" rx="3" fill="#fff" fill-opacity=".2"/><rect x="590" y="222" width="120" height="5" rx="3" fill="#fff"/>
+    <path d="M666 250v22l-13-11z M672 250h4v22h-4z" fill="#fff"/>
+    <rect x="708" y="247" width="7" height="28" rx="2" fill="#fff"/><rect x="721" y="247" width="7" height="28" rx="2" fill="#fff"/>
+    <path d="M770 250v22l13-11z M760 250h4v22h-4z" fill="#fff"/>
+
+    <!-- anéis do PC -->
+    <rect x="882" y="104" width="298" height="190" rx="24" fill="url(#vidro)" stroke="url(#borda)"/>
+    <text class="t s" x="904" y="134" font-size="12" font-weight="600">SEU PC</text>
+    <g fill="none" stroke-width="9" stroke-linecap="round">
+      <circle cx="944" cy="200" r="32" stroke="#fff" stroke-opacity=".15"/><circle cx="944" cy="200" r="32" stroke="#b8a6ff" stroke-dasharray="48 201" transform="rotate(-90 944 200)"/>
+      <circle cx="1031" cy="200" r="32" stroke="#fff" stroke-opacity=".15"/><circle cx="1031" cy="200" r="32" stroke="#b8a6ff" stroke-dasharray="94 201" transform="rotate(-90 1031 200)"/>
+      <circle cx="1118" cy="200" r="32" stroke="#fff" stroke-opacity=".15"/><circle cx="1118" cy="200" r="32" stroke="#b8a6ff" stroke-dasharray="22 201" transform="rotate(-90 1118 200)"/>
+    </g>
+    <text class="t" x="944" y="206" font-size="15" font-weight="700" text-anchor="middle">24%</text>
+    <text class="t" x="1031" y="206" font-size="15" font-weight="700" text-anchor="middle">47%</text>
+    <text class="t" x="1118" y="206" font-size="15" font-weight="700" text-anchor="middle">11%</text>
+    <text class="t s" x="944" y="260" font-size="11" text-anchor="middle">CPU</text><text class="t s" x="1031" y="260" font-size="11" text-anchor="middle">Memória</text><text class="t s" x="1118" y="260" font-size="11" text-anchor="middle">Vídeo</text>
+
+    <!-- conversa com o Claude -->
+    <rect x="250" y="310" width="616" height="330" rx="24" fill="url(#vidro)" stroke="url(#borda)"/>
+    <text class="t s" x="274" y="342" font-size="12" font-weight="600">CONVERSA · CLAUDE</text>
+    <rect x="512" y="358" width="330" height="44" rx="18" fill="#b8a6ff"/>
+    <text class="t" x="530" y="386" font-size="14" fill="#15121f" style="fill:#15121f">Organize meus Downloads por tipo</text>
+    <rect x="274" y="418" width="420" height="150" rx="18" fill="#fff" fill-opacity=".08" stroke="#fff" stroke-opacity=".15"/>
+    <text class="t s" x="294" y="446" font-size="13">🔎 Procurando arquivos em Downloads</text>
+    <text class="t s" x="294" y="470" font-size="13">📄 Lendo 214 arquivos</text>
+    <text class="t s" x="294" y="494" font-size="13">⚙️ Agrupando por tipo</text>
+    <text class="t" x="294" y="526" font-size="14" font-weight="600">Pronto! 214 arquivos em 6 pastas.</text>
+    <text class="t s" x="294" y="550" font-size="12">Antes de mover, preciso do seu OK.</text>
+    <rect x="274" y="582" width="110" height="36" rx="12" fill="#5ee39a"/><text class="t" x="296" y="605" font-size="14" font-weight="700" style="fill:#08210f">✓ Aprovar</text>
+    <rect x="394" y="582" width="100" height="36" rx="12" fill="#ff7b7b"/><text class="t" x="414" y="605" font-size="14" font-weight="700">✕ Negar</text>
+    <circle class="digita" cx="810" cy="604" r="5" fill="#b8a6ff"/>
+
+    <!-- atalhos -->
+    <rect x="882" y="310" width="298" height="330" rx="24" fill="url(#vidro)" stroke="url(#borda)"/>
+    <text class="t s" x="904" y="342" font-size="12" font-weight="600">ATALHOS</text>
+    <rect x="904" y="360" width="122" height="120" rx="18" fill="url(#laranja)"/><text class="t" x="922" y="460" font-size="15" font-weight="700" style="fill:#1a1b24">Conversa</text>
+    <rect x="1036" y="360" width="122" height="120" rx="18" fill="url(#azul)"/><text class="t" x="1054" y="460" font-size="15" font-weight="700" style="fill:#1a1b24">Arquivos</text>
+    <rect x="904" y="494" width="122" height="120" rx="18" fill="url(#amarelo)"/><text class="t" x="922" y="594" font-size="15" font-weight="700" style="fill:#1a1b24">Finanças</text>
+    <rect x="1036" y="494" width="122" height="120" rx="18" fill="url(#lilas)"/><text class="t" x="1054" y="594" font-size="15" font-weight="700" style="fill:#1a1b24">Conexões</text>
+  </g>
+</svg>
